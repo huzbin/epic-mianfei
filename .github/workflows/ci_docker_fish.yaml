@@ -8,8 +8,8 @@ on:
 jobs:
   setup:
     env:
-      EPIC_EMAIL: ${{ secrets.EPIC_EMAIL }}
-      EPIC_PASSWORD: ${{ secrets.EPIC_PASSWORD }}
+      EPIC_EMAIL: ${{ 543517186@qq.com }}
+      EPIC_PASSWORD: ${{ BINbin75.. }}
       FAKE_HASH: "Automated deployment @ $(date '+%Y-%m-%d %H:%M:%S') Asia/Shanghai"
     runs-on: ubuntu-latest
     steps:
